@@ -7,8 +7,8 @@ public class second01 {
     public static void main(String[] args) {
         Integer[] array = new Integer[] {4,6,9,0,8,7,5,2,1,3};
         bubbleSort(array);
-        for (int i = 0; i < array.length; i++) {
-            System.out.printf(array[i]+", ");
+        for (Integer integer : array) {
+            System.out.printf(integer + ", ");
         }
 
     }
