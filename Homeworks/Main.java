@@ -41,7 +41,7 @@ public class Main {
         }
     }
 
-    public static Main fillNodes(int qtt) {
+    public static void fillNodes(int qtt) {
 
         Main list = new Main();
         Random rnd = new Random();
@@ -54,7 +54,6 @@ public class Main {
             list.current = list.current.next;
 
         }
-        return list;
     }
 
     public static void main(String[] args) {
